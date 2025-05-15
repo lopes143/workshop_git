@@ -11,7 +11,12 @@ def div(n1, n2):
     return float(n1/n2)
 
 def bigger(n1, n2):
-    return n1 if n1>n2 else n2
+    if n1 > n2:
+        return n1 
+    if n1 < n2:
+        return n2 
+    if n1 == n2:
+        return 0 
 
 def calculadora_simples():
     print("------------------------------")
