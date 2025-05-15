@@ -46,4 +46,4 @@ def calculadora_simples():
 # Executa
 while True:
     calculadora_simples()
-    print("Outra conta")
+    print("dlkjawdkjsadiajwdoijsaoidjwaoidjoisajdoiwjdoiajs8743983274983274")
