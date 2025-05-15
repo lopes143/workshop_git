@@ -10,6 +10,8 @@ def mul(n1, n2):
 def div(n1, n2):
     return float(n1/n2)
 
+def bigger(n1, n2):
+    return n1 if n1>n2 else n2
 
 def calculadora_simples():
     print("------------------------------")
