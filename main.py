@@ -11,6 +11,16 @@ def calculadora_simples():
 
     if operador == '+':
         resultado = add(numero1, numero2)
+
+    elif operador == '-':
+        resultado = sub(numero1, numero2)
+
+    elif operador == 'x':
+        resultado = mul(numero1, numero2)
+
+    elif operador == '/':
+        resultado = div(numero1, numero2)
+
     else:
         print("Operador inválido.")
         return
@@ -20,4 +30,4 @@ def calculadora_simples():
 # Executa
 while True:
     calculadora_simples()
-    print("Hello World!")
+    print("Outra conta")
