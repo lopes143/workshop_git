@@ -24,7 +24,7 @@ def calculadora_simples():
     elif operador == '-':
         resultado = sub(numero1, numero2)
 
-    elif operador == 'x':
+    elif operador == '*':
         resultado = mul(numero1, numero2)
 
     elif operador == '/':
