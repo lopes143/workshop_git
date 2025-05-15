@@ -20,3 +20,4 @@ def calculadora_simples():
 # Executa
 while True:
     calculadora_simples()
+    print("Hello World!")
